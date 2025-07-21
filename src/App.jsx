@@ -8,6 +8,7 @@ import { IconPlus, IconSchool } from "./components/icons"
 import { SubHeading } from "./components/SubHeading"
 import { ToDoItem } from "./components/ToDoItem"
 import { ToDoList } from "./components/ToDoList"
+import {Dialog} from "./components/Dialog/index.jsx";
 
 const todos = [
   {
@@ -60,6 +61,7 @@ function App() {
             <IconSchool /> Plano de estudos
           </Heading>
         </Header>
+        <Dialog/>
         <ChecklistsWrapper>
           <SubHeading>Para estudar</SubHeading>
           <ToDoList>
